@@ -23,17 +23,47 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
+.principal{
+    max-width: 120rem;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.abutton {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 3px solid #04AA6D;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.abutton:hover {
+    background-color: #04AA6D;
+    color: white;
+}
 .cont-1{
     justify-content: center;
     background-color: hsl(0, 0%, 12%);
     width: 315px;
-    height: 640px;
+    height: 650px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    
 }
 .cont-1 .imgavt{
     margin-top: 30px;
