@@ -30,9 +30,6 @@
         max-width: 120rem;
         height: 100vh;
         display: flex;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
         flex-wrap: nowrap;
         overflow-x: auto;
         gap: 2rem;
