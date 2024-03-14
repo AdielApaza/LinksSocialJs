@@ -95,11 +95,11 @@
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
     }
-    a:hover, a:active{
-        background-color: hsl(202, 94%, 57%);
-        color: hsl(0, 0%, 12%);
-    }
     a:link:active, a:visited:active{
         background-color: hsl(0, 0%, 100%);
+        color: hsl(0, 0%, 12%);
+    }
+    a:hover, a:active{
+        background-color: hsl(202, 94%, 57%);
         color: hsl(0, 0%, 12%);
     }
